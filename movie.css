@@ -1,0 +1,174 @@
+/* import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursive';
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    background-attachment: fixed;
+    /* background-image: url('./Static/wp1945897-movie-posters-wallpapers.jpg'); */
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+/* movie container */
+#movie_area
+{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 100vh;
+    /* flex-wrap: wrap; */
+
+}
+/* movie poster image */
+
+.poster-image
+{
+    height: 90%;
+    margin: 0px 20px;
+}
+/* movie poster image */
+
+.poster-image img
+{
+    height: 100%;
+    width: auto;
+}
+/* title of movie */
+.movie-title h1
+{
+    font-weight: bolder;
+    color: aliceblue;
+    margin: 20px 10px;
+    size: 10rem;
+
+}
+/* movie details area */
+.movie-details
+{
+    width: 100%;
+
+}
+/* director */
+
+.director
+
+{
+    margin: 20px 10px;
+    color:aliceblue;
+    font-size: 1.8rem;
+
+    border-bottom: 2px solid white;
+
+}
+/* duration of movie */
+.duration 
+{
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin: 0px 10px;
+    display: flex;
+
+
+
+}
+/* relased date */
+.realsed-date
+{
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin: 0px 10px;
+    padding-left: 35px;
+
+}
+/* movie rating */
+.rating
+{
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin: 0px 0px;
+
+}
+/* actor of movie */
+.actor
+{
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin: 0px 0px;
+}
+/* all h4 */
+h4{
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin: 0px 10px;   
+
+}
+/* plot of movie */
+.plot
+{
+    color:aliceblue;
+    font-size: 1.8rem;
+    margin: 0px 10px;
+    padding-top: 4px;
+    overflow-y: scroll;
+    max-height: 150px;  
+
+
+}
+#home
+{  color:aliceblue;
+    background: transparent ;
+    margin: 0px 20px;
+    padding-top: 2rem;
+    font-size: 1.8rem;
+   
+    /* padding-left: 3rem; */
+
+}
+#home button
+{
+    border: none;
+
+}
+nav {
+    display: flex; 
+    flex-direction: row-reverse;
+    padding-bottom: 40px;
+    /* margin: 15px; */
+     width: 100%;
+
+    /* border: 2px solid white; */
+
+}
+
+
+/* responsive */
+@media screen and (max-width:900px) {
+
+    #movie_area
+    {
+
+        flex-wrap: wrap;
+        height: 100vh;
+    
+    }
+    
+    nav {
+        display: flex; 
+        flex-direction: row;
+        padding-bottom: 40px;
+        /* margin: 15px; */
+         width: 100%;
+    
+        /* border: 2px solid white; */
+    
+    }
+}
+
+

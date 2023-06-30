@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/551ec3684e.css" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/551ec3684e.js" crossorigin="anonymous"></script>
+    <!--  linking css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- title of the page -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav bar area -->
+      <nav>
+        <!-- logo of page  -->
+        <div class="logo">
+            <img src="./Static/logo2.0.png" alt="unable to load">
+        </div>
+        <!-- search box -->
+        <div id="search_bar">
+            <div class="wrapper">
+                <div id="search_box">
+                    <input type="text"id="inputbox"onkeyup="findmovies()" required placeholder="search flim...">
+                    <button value="submit"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- to move to favourtite page -->
+        <div class="fav-list">
+            <a href="./favourite.html">
+            <h3>MY FAVOURITE LIST</h3>
+            </a>
+        </div>
+      </nav>
+      <!-- movie suggestion area -->
+      <div class="serachconatiner" id="serachconatinerbox">
+        </div>
+        <!-- to show notification add to favourite -->
+        <div id="notify">
+            Added to favourite
+        </div>
+
+      <!--linking java script  -->
+  <script src="./index.js"></script>
+        
+</body>
+</html>
