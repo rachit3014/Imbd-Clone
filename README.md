@@ -48,7 +48,7 @@ This is a simple and basic project on html ,css and javascript.
 # API Refernces :-
                    OMDB API LINK:- https://www.omdbapi.com/
                                                                
-# hosted url:- "  "
+# hosted url:- " https://rachit3014.github.io/Imbd-Clone/"
 After that i have written all the possible conditions which is required to make the IMDB clone functional or in proper working.
 
                             
